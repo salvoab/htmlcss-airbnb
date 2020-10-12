@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  width: 98vw;
+  margin: auto;
+}
+
+.location{
+  width: 98vw;
+  height: 30vh;
+  background: red;
+}
