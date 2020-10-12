@@ -13,10 +13,21 @@ main{
   width: 98vw;
   height: calc((100vh / 3) - 1vh);
   margin-bottom: 1vh;
-  background-image: url("../img/Milano.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.location:nth-child(1){
+  background-image: url("../img/Milano.jpg");
+}
+
+.location:nth-child(2){
+  background-image: url("../img/Roma.jpg");
+}
+
+.location:nth-child(3){
+  background-image: url("../img/Napoli.jpg");
 }
 
 .overlay{
